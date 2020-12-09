@@ -1,5 +1,5 @@
-def introduction name="Zed"
-"Hi, my name is #{name}"
+def introduction name
+  puts "Hi, my name is #{name}"
 end
 
-puts introduction name
+introduction name
